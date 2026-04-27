@@ -1,0 +1,64 @@
+SYS_FIELD_NAME,FIELD_DESC
+YEAR,Year
+QUARTER,Quarter (1-4)
+AIRLINE_ID,"An identification number assigned by US DOT to identify a unique airline (carrier). A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation."
+UNIQUE_CARRIER,"Unique Carrier Code. When the same code has been used by multiple carriers, a numeric suffix is used for earlier users, for example, PA, PA(1), PA(2). Use this field for analysis across a range of years."
+UNIQUE_CARRIER_NAME,"Unique Carrier Name. When the same name has been used by multiple carriers, a numeric suffix is used for earlier users, for example, Air Caribbean, Air Caribbean (1)."
+CARRIER,"Code assigned by IATA and commonly used to identify a carrier. As the same code may have been assigned to different carriers over time, the code is not always unique. For analysis, use the Unique Carrier Code."
+CARRIER_NAME,Carrier Name
+UNIQUE_CARRIER_ENTITY,Unique Entity for a Carrier's Operation Region.
+REGION,Carrier's Operation Region. Carriers Report Data by Operation Region
+CARRIER_GROUP_NEW,Carrier Group New
+CARRIER_GROUP,Carrier Group Code.  Used in Legacy Analysis
+AIRCRAFT_CONFIG,Aircraft Configuration
+AIRCRAFT_GROUP,Aircraft Group
+AIRCRAFT_TYPE,Aircraft Type
+PILOT_FLY_OPS,51230 - Pilots And Copilots (000)
+OTH_FLT_FLY_OPS,51240 - Other Flight Personnel (000)
+TRAIN_FLY_OPS,51281 - Trainees And Instructors (000)
+PERS_EXP_FLY_OPS,51360 - Personnel Expenses (000)
+PRO_FLY_OPS,51410 - Professional And Technical Fees And Expenses (000)
+INTERCHG_FLY_OPS,51437 - Aircraft Interchange Charges (000)
+FUEL_FLY_OPS,51451 - Aircraft Fuel (000)
+OIL_FLY_OPS,51452 - Aircraft Oil (000)
+RENTAL_FLY_OPS,51470 - Rentals (000)
+OTHER_FLY_OPS,51530 - Other Supplies (000)
+INS_FLY_OPS,51551 - Insurance Purchased - General (000)
+BENEFITS_FLY_OPS,51570 - Employee Benefits And Pensions (000)
+INCIDENT_FLY_OPS,"51580 - Injuries, Loss, And Damage (000)"
+PAY_TAX_FLY_OPS,51680 - Taxes - Payroll (000)
+OTH_TAX_FLY_OPS,51690 - Taxes - Other Than Payroll (000)
+OTHER_EXP_FLY_OPS,51710 - Other Expenses (000)
+TOT_FLY_OPS,51990 - Total Flying Operations (000)
+AIRFRAME_LABOR,52251 - Labor - Airframes (000)
+ENGINE_LABOR,52252 - Labor - Aircraft Engines (000)
+AIRFRAME_REPAIR,52431 - Airframe Repairs (000)
+ENGINE_REPAIRS,52432 - Aircraft Engine Repairs (000)
+INTERCHG_CHARG,52437 - Aircraft Interchange Charges (000)
+AIRFRAME_MATERIALS,52461 - Materials - Airframes (000)
+ENGINE_MATERIALS,52462 - Materials - Aircraft Engines (000)
+AIRFRAME_ALLOW,52721 - Airworthiness Allowance Provisions - Airframes (000)
+AIRFRAME_OVERHAULS,"52723 - Airframe Overhauls Deferred, Credit (-) (000)"
+ENGINE_ALLOW,52726 - Airworthiness Allowance Provisions - Aircraft Engines (000)
+ENGINE_OVERHAULS,"52728 - Aircraft Engine Overhauls Deferred, Credit (-) (000)"
+TOT_DIR_MAINT,52780 - Total Direct Maintenance - Flight Equipment (000)
+AP_MT_BURDEN,52796 - Applied Maintenance Burden - Flight Equipment (000)
+TOT_FLT_MAINT_MEMO,52990 - Total Flight Equipment Maintenance (000)
+NET_OBSOL_PARTS,70739 - Net Obsolescence And Deterioration - Expendable Parts (000)
+AIRFRAME_DEP,70751 - Airframes (000)
+ENGINE_DEP,70752 - Aircraft Engines (000)
+PARTS_DEP,70753 - Airframe Parts (000)
+ENG_PARTS_DEP,70754 - Aircraft Engine Parts (000)
+OTH_FLT_EQUIP_DEP,70755 - Other Flight Equipment (000)
+OTH_FLT_EQUIP_DEP_GRP_I,70756 - Total Depreciation (7075.1 - 7075.5) (000)
+FLT_EQUIP_A_EXP,70761 - Amortization Expense - Capital Leases - Flight Equipment (000)
+FLY_OPS_EXP_I_A,70981 - Flying Operations (000)
+TOT_AIR_OP_EXPENSES,70989 - Total Aircraft Operating Expense (Direct Operating Expense) (000)
+TOTAL_AIR_HOURS,Z6500 - Total Aircraft Airborne Hours (000) - The time the aircraft leaves the ground until the time it touches the ground again.
+AIR_DAYS_ASSIGN,Z8100 - Aircraft Days Assigned (000) - The number of days the aircraft (owned or leased) is available for service.
+AIR_FUELS_ISSUED,Z9210 - Aircraft Fuel Issued in gallons (000) - The amount of fuel issued during the reporting period for revenue and non-revenue flights.
+DEV_N_PREOP_EXP,70741 - Amortization - Developmental And Preop. Expense (000)
+OTH_INTANGIBLES,70742 - Amortization - Other Intangibles (000)
+EQUIP_N_HANGAR_DEP,70758 - Depreciation - Maintenance Equipment And Hangars (000)
+G_PROP_DEP,70759 - Depreciation - General Ground Property (000)
+CAP_LEASES_DEP,70762 - Amortization - Capital Leases (000)

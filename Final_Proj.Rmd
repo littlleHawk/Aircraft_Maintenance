@@ -1,0 +1,13 @@
+---
+title: "STA477_Final"
+author: "Sakina Lord"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(kableExtra)
+library(knitr)
+```
