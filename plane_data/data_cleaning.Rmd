@@ -11,12 +11,13 @@ library(ggplot2)
 ```
 
 ```{r}
-data_raw <- read.csv("T_F41SCHEDULE_P52.csv") %>% filter(YEAR > 2003) 
+data_raw <- read.csv("T_F41SCHEDULE_P52.csv") #%>% filter(YEAR > 2003) 
 craft_type_lookup <- read.csv("craft_codes_lookup/T_AIRCRAFT_TYPES.csv")
 ```
 
 ```{r}
-summary(data_raw)
+#summary(data_raw)
+length(unique(data_raw$CARRIER))
 ```
 ```{r}
 data_time <- data_raw %>% filter(YEAR > 2003) %>% mutate(time_pt = as.numeric(YEAR) + (as.numeric(QUARTER)) * 0.1)
@@ -40,7 +41,7 @@ ggplot(data.BA, aes(x = TOTAL_AIR_HOURS)) + geom_col(aes(y = TOT_FLY_OPS))
 ```
 ```{r}
 ggplot(data.BA, aes(x = TOTAL_AIR_HOURS)) + geom_line(aes(y = TOT_FLY_OPS))
-```
+<!-- ``` -->
 
 
 
